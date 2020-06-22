@@ -1,4 +1,4 @@
-# Silvercart Payment Gateway from Novalnet
+# SilverCart Payment Gateway from Novalnet
 
 Novalnet’s SilverCart payment gateway is an extensive payment module which automates the entire payment process from checkout to collection. This module is designed to help you offer globally accepted payment methods and manage your e-commerce transaction flows on a single SaaS platform.
 
@@ -13,11 +13,11 @@ Novalnet’s SilverCart payment gateway is an extensive payment module which aut
 
 ## What do I need to have?
 
-This Silvercart payment gateway is available for the silverstripe_4.5.1_silvercart_4.1.1 version in following languages: English & German. 
+This SilverCart payment gateway is available for the silverstripe_4.5.1_silvercart_4.1.1 version in following languages: English & German. 
 
 *Novalnet merchant account is required for accepting and processing payments on your Silvercart system. 
 
-## How does it add-on to my Silvercart system? 
+## How does it add-on to my SilverCart system? 
 
 - Easy configuration and friendly infrastructure for international and local payment methods
 -	PCI DSS certified payment platform (SaaS)
