@@ -1,0 +1,133 @@
+en:
+  SilverCart\Model\ShopEmail:
+    TemplateName_PaymentNovalnetTransactionInfo: 'Informations for Novalnet payment method (customer)'
+    ThankYouForYourOrder: 'Thank you for your order at our shop.'
+  SilverCart\NovalnetGateway\Model\NovalnetGateway:
+    NAME: 'Novalnet Gateway'
+    PAYMENT_CHANNEL: 'Payment Channel'
+    PAYMENT_CHANNEL_NOVALNETGLOBALCONFIGURATION: Novalnet Global Configuration
+    PAYMENT_CHANNEL_NOVALNETCREDITCARD: Credit/Debit Cards
+    PAYMENT_CHANNEL_NOVALNETSEPA: Direct Debit SEPA
+    PAYMENT_CHANNEL_NOVALNETINVOICE: Invoice
+    PAYMENT_CHANNEL_NOVALNETPREPAYMENT: Prepayment
+    PAYMENT_CHANNEL_NOVALNETCASHPAYMENT: Barzahlen/viacash
+    PAYMENT_CHANNEL_NOVALNETSOFORT: Sofort
+    PAYMENT_CHANNEL_NOVALNETPAYPAL: PayPal
+    PAYMENT_CHANNEL_NOVALNETEPS: eps 
+    PAYMENT_CHANNEL_NOVALNETIDEAL: iDEAL    
+    PAYMENT_CHANNEL_NOVALNETGIROPAY: giropay
+    PAYMENT_CHANNEL_NOVALNETPRZELEWY24: Przelewy24     
+    VendorId: 'Merchant ID'
+    VendorIdDesc: 'Enter Novalnet merchant ID'
+    AuthCode: 'Authentication Code'
+    AuthCodeDesc: 'Enter Novalnet authentication code'
+    ProductId: 'Project ID'
+    ProductIdDesc: 'Enter Novalnet project ID'
+    TariffId: 'Tariff ID'
+    TariffIdDesc: 'Enter Tariff ID to match the preferred tariff plan you created at the Novalnet Merchant Administration portal for this project. Refer Novalnet Payment Gateway Installation Guide for further details'
+    AccessKey: 'Payment access key'
+    AccessKeyDesc: 'Enter Novalnet payment access key'   
+    ManualTestingVendorScript: 'Allow manual testing of the Notification / Webhook URL'
+    ManualTestingVendorScriptDesc: 'Enable this to test the Novalnet Notification / Webhook URL manually. Disable this before setting your shop live to block unauthorized calls from external parties'   
+    SendTo: 'Send e-mail to'
+    SendToDesc: 'Notification / Webhook URL execution messages will be sent to this e-mail'
+    VendorScriptConfiguration: 'Notification / Webhook URL Setup'
+    VencorConfiguration: 'Novalnet Global Configuration'
+    OnholdStatusManagement: 'Order status management for on-hold transactions'    
+    OnholdOrderStatus: 'Onhold order status'
+    OnholdOrderStatusDesc: 'Status to be used for on-hold orders until the transaction is confirmed or cancelled'    
+    OnholdOrderCancelStatus: 'Order cancellation status'      
+    OnholdOrderCancelStatusDesc: 'Status to be used when order is cancelled or fully refunded'          
+    OrderConfirmationSubmitButtonTitle: "Pay with Novalnet (over 100 payment methods worldwide)"            
+    TransactionDetails: 'Novalnet transaction details'
+    TransactionID: 'Novalnet transaction ID: '
+    TestMode: 'Test Order'    
+    novalnetcreditcardConfiguration: 'Credit Card Configuration'                      
+    Creditcard3dEnforce: 'Enforce 3D secure payment outside EU'
+    Creditcard3dEnforceDesc: 'By enabling this option, all payments from cards issued outside the EU will be authenticated via 3DS 2.0 SCA.'
+    novalnetsepaConfiguration: 'Direct Debit SEPA Configuration'
+    SepaDueDate: 'Payment due date (in days)'
+    SepaDueDateDesc: 'Number of days after which the payment is debited (must be between 2 and 14 days)'
+    EnableGuarantee: 'Enable payment guarantee'
+    EnableGuaranteeDesc: 'Payment guarantee requirements:<br>
+                                                                        Allowed countries: DE, AT, CH<br>
+                                                                        Allowed currency: EUR<br>
+                                                                        Minimum order amount: 9,99 EUR or more<br>
+                                                                        Age limit: 18 years or more<br>
+                                                                        The billing address must be the same as shipping address<br>'
+    GuaranteeMinOrderAmount: 'Minimum order amount for payment guarantee'
+    GuaranteeMinOrderAmountDesc: 'Enter the minimum amount (in cents) for the transaction to be processed with payment guarantee. For example, enter 100 which is equal to 1,00. By default, the amount will be 9,99 EUR'
+    PaymentGuaranteeForce: 'Force non-guarantee payment'
+    PaymentGuaranteeForceDesc: 'Even if payment guarantee is enabled, payments will still be processed as non-guarantee payment if payment guarantee requirements are not met. Review the requirements under "Enable Payment Guarantee" in the installation guide'
+    novalnetinvoiceConfiguration: 'Invoice Configuration'
+    InvoicePaymentDueDate: 'Payment due date (in days)' 
+    InvoicePaymentDueDateDesc: 'Number of days given to the buyer to transfer the amount to Novalnet (must be greater than 7 days). In case this field is empty, 14 days will be set as due date by default'    
+    novalnetprepaymentConfiguration: 'Prepayment Configuration'
+    GuaranteePaymentPendingStatus: 'Payment pending order status'
+    GuaranteePaymentPendingStatusDesc: 'Status to be used for pending transactions'
+    PendingStatus: 'Pending payment order status'
+    PendingStatusDesc: 'Status to be used for pending transactions'
+    OrderCompletionStatus: 'Completed order status'
+    OrderCompletionStatusDesc: 'Status to be used for successful orders'
+    CallbackStatus: 'Callback / webhook order status'
+    CallbackStatusDesc: 'Status to be used when callback script is executed for payment received by Novalnet'
+    PrepaymentDueDate: 'Payment due date (in days)'
+    PrepaymentDueDateDesc: 'Number of days given to the buyer to transfer the amount to Novalnet (must be between 7 and 28 days). If this field is left blank, 14 days will be set as due date by default.'
+    novalnetcashpaymentConfiguration: 'Barzahlen/viacash Configuration'                    	
+    CashPaymentSlipExpiryDate: 'Slip expiry date (in days)'
+    CashPaymentSlipExpiryDateDesc: 'Number of days given to the buyer to pay at a store. In case this field is empty, 14 days will be set as slip expiry date by default'
+    novalnetpaypalConfiguration: 'PayPal Configuration'
+    novalnetsofortConfiguration: 'Sofort Configuration'
+    novalnetgiropayConfiguration: 'giropay Configuration'
+    novalnetepsConfiguration: 'eps Configuration'
+    novalnetidealConfiguration: 'iDEAL Configuration'
+    novalnetprzelewy24Configuration: 'Przelewy24 Configuration'
+    InvoiceComment: 'Please transfer the amount to the below mentioned account details of our payment processor Novalnet'    
+    InvoiceAccountHolder: 'Account holder: '
+    InvoiceDueDate: 'Due date: '
+    InvoiceIban: 'IBAN: '
+    InvoiceBic: 'BIC: '
+    InvoiceBank: 'Bank: '
+    InvoiceAmount: 'Amount: '
+    InvoiceMultiRefDescription: 'Please use any one of the following references as the payment reference, as only through this way your payment is matched and assigned to the order:'
+    InvoicePaymentRef1: 'Payment Reference 1: '
+    InvoicePaymentRef2: 'Payment Reference 2: '
+    GuaranteeComments: 'This is processed as a guarantee payment'
+    GuaranteeErrorMsg: 'The payment cannot be processed, because the basic requirements for the payment guarantee haven&#39;t been met'
+    GuaranteeErrorMsgAmount: 'Minimum order amount must be'
+    GuguaranteeErrorMsgCountry: 'Only Germany, Austria or Switzerland are allowed'
+    GuaranteeErrorMsgAddress: 'The shipping address must be the same as the billing address'
+    GuaranteeErrorMsgCurrency: 'Only EUR currency allowed'    
+    StatusCancelled: 'Cancelled'
+    MinimumOrdeAmount: 'Minimum transaction amount for authorization'
+    MinimumOrdeAmountDesc: 'Transactions above this amount will be authorized only until you capture. Leave the field blank to authorize all transactions' 
+    PaymentAction: 'Payment confirmation'
+    PaymentActionDesc: 'Choose whether or not the payment should be charged immediately. Capture: completes the transaction by transferring the funds from buyer  to merchant. Authorize: verifies payment details and reserve funds to capture it later, giving time for the merchant to decide on the order.'
+    SlipExpiryDate: 'Slip expiry date '
+    Capture: 'Capture'
+    Authorize: 'Authorize'    
+    SepaDueDateError: 'SEPA Due date is not valid'
+    GuaranteeMinOrderAmountError: 'The minimum amount should be at least 9,99 EUR'
+  SilverCart\NovalnetGateway\Model\NovalnetGatewayTranslation:
+    PLURALNAME: "Translations"
+    SINGULARNAME: "Translation"
+  SilverCart\NovalnetGateway\Model\NovalnetCallback:
+    CriticalErrorMessage1: 'Critical error on shop system '                   
+    CriticalErrorMessage2:  ' : order not found for TID: '                   
+    CriticalMessageSubject: 'Dear Technic team,<br/><br/>Please evaluate this transaction and contact our payment module team at Novalnet.<br/><br/>'
+    MerchantId: 'Merchant ID: '
+    ProjectId: 'Project ID: '           
+    TidStatus: 'TID status: '
+    OrderNo: 'Order no: '               
+    PaymentType: 'Payment type: '
+    Email:  'E-mail: '
+    Regards:  '<br/><br/>Regards,<br/>Novalnet Team'    
+    TransactionDetails: 'Novalnet transaction details'
+    TransactionID: 'Novalnet transaction ID: '
+    TestMode: 'Test order'
+    GuaranteePayment: 'This is processed as a guarantee payment'
+    OrderConfirmation: 'Order Confirmation - Your Order '
+    OrderConfirmation1: ' with '
+    OrderConfirmation2: ' has been confirmed'
+    OrderConfirmation3: 'We are pleased to inform you that your order has been confirmed'
+    PaymentInformation: 'Payment Information:'
