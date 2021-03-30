@@ -1,0 +1,15 @@
+*** Changelog ***
+
+= 1.0.1 - 2021.03.24 =
+
+* Fix  - Chrome Samesite Cookies
+* Fix  - Compatible for silverstripe 4.7.3
+* New  - Implemented enforce 3D secure payment for countries outside EU
+* New  - Implemented Payment duration for Prepayment
+* Enhanced - Barzahlen payment name and logo
+* Removed  - Referrer Id configuration
+* Removed  - Gateway timeout configuration
+
+= 1.0.0 - 2020.04.27 =
+
+* New release
