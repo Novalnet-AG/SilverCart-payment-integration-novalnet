@@ -2,7 +2,6 @@
 
 Novalnet’s SilverCart payment gateway is an extensive payment module which automates the entire payment process from checkout to collection. This module is designed to help you offer globally accepted payment methods and manage your e-commerce transaction flows on a single SaaS platform.
 
-
 ## How do I install and configure?
 
 1. Payment module: Contact technic@novalnet.de to get the payment module for Silvercart integration
@@ -10,10 +9,9 @@ Novalnet’s SilverCart payment gateway is an extensive payment module which aut
 3. Merchant Details: Add your merchant details in the shop admin panel*
 4. Payment methods:  Activate the preferred payments methods and you’re ready to go
 
-
 ## What do I need to have?
 
-This SilverCart payment gateway is available for the silverstripe_4.7.3_silvercart_4.1.1 version in following languages: English & German. 
+This SilverCart payment gateway is available for the silverstripe_4.8.0_silvercart_4.1.1 version in following languages: English & German. 
 
 *Novalnet merchant account is required for accepting and processing payments on your Silvercart system. 
 
@@ -28,7 +26,6 @@ This SilverCart payment gateway is available for the silverstripe_4.7.3_silverca
 -	Responsive templates suitable for all devices
 
 For detailed documentation and other technical inquiries, please send us an email at technic@novalnet.de
-
 
 ## Which payments can I accept?
 
@@ -46,18 +43,15 @@ For detailed documentation and other technical inquiries, please send us an emai
 - Przelewy24
 - Barzahlen/viacash
 
-
 ## What about the license?
 
 See our License Agreement at: [Free License Agreement](https://github.com/Novalnet-AG/SilverCart-payment-gateway/blob/add-license-1/LICENSE)
-
 
 ## What if I need help?
 All functionalities are described in a detailed matter in the installation guide included in our package. If you face any bugs, open a support ticket here in GitHub or contact us at technic@novalnet.de. We are always happy to hear your feedback! 
 
 For more information about the Silvercart payment gateway and the Novalnet payment platform, please contact<br>
 [sales@novalnet.de](sales@novalnet.de) or +49 89 9230683-20.
-
 
 ## Who is Novalnet? 
 
