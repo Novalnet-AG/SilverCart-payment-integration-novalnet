@@ -1,0 +1,6 @@
+---
+Name: silvercart-payment-NovalnetGateway-extensions
+---
+SilverCart\NovalnetGateway\Model\NovalnetGateway:
+  extensions:
+    - SilverCart\Model\Translation\TranslatableDataObjectExtension    
