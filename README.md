@@ -44,7 +44,6 @@ For detailed documentation and other technical inquiries, please send us an emai
 - Barzahlen/viacash
 
 ## What about the license?
-
 See our License Agreement at: [Free License Agreement](https://github.com/Novalnet-AG/SilverCart-payment-gateway/blob/add-license-1/LICENSE)
 
 ## What if I need help?
@@ -52,6 +51,18 @@ All functionalities are described in a detailed matter in the installation guide
 
 For more information about the Silvercart payment gateway and the Novalnet payment platform, please contact<br>
 [sales@novalnet.de](sales@novalnet.de) or +49 89 9230683-20.
+
+## Documentation & Support
+For more information about the Silvercart Payment Integration by Novalnet, please get in touch with us: <a href="mailto:sales@novalnet.de"> sales@novalnet.de </a> or +49 89 9230683-20<br>
+
+Novalnet AG<br>
+Zahlungsinstitut (ZAG)<br>
+Gutenbergstraße 7<br>
+D-85748 Garching<br>
+Deutschland<br>
+E-mail: sales@novalnet.de<br>
+Tel: +49 89 9230683-20<br>
+Web: www.novalnet.de
 
 ## Who is Novalnet? 
 
